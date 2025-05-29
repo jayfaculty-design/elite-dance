@@ -30,12 +30,12 @@ function Calendar({
           classNames?.caption_label
         ),
         button_next: cn(
-          buttonVariants({ variant: "outline-solid" }),
+          buttonVariants({ variant: "outline" }),
           "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 absolute right-1 [&_svg]:fill-foreground",
           classNames?.button_next
         ),
         button_previous: cn(
-          buttonVariants({ variant: "outline-solid" }),
+          buttonVariants({ variant: "outline" }),
           "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 absolute left-1 [&_svg]:fill-foreground",
           classNames?.button_previous
         ),

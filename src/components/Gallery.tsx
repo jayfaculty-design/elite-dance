@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Play, Image as ImageIcon, Calendar, Award } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
   const galleryItems = [

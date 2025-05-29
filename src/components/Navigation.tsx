@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu, X, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [

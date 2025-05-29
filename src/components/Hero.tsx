@@ -2,7 +2,7 @@ import React from "react";
 import { Play, ArrowRight, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <section
       id="home"
